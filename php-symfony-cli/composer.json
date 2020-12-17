@@ -1,0 +1,20 @@
+{
+    "name": "antonmarin/experiment-symfony-cli",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Marin",
+            "email": "antonaryo85@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "antonmarin\\experiment\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "^5.2",
+        "php": "^7.4"
+    }
+}
