@@ -10,6 +10,11 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class TestDebugCli extends Command
 {
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
     /** @noinspection PhpMissingParentCallCommonInspection */
     protected function configure(): void
     {
